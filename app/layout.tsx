@@ -19,7 +19,10 @@ export default function RootLayout({
           property="og:description"
           content="Track your cryptocurrency portfolio with real-time price updates"
         />
-        <meta property="og:image" content="/icons/cryptoo.jpg" />
+        <meta
+          property="og:image"
+          content="https://crypto-portfolio-dashboard-tan.vercel.app/icons/cryptoo.jpg"
+        />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:type" content="website" />
@@ -35,7 +38,7 @@ export default function RootLayout({
         />
         <meta
           name="twitter:image"
-          content="/icons/cryptoo.jpg"
+          content="https://crypto-portfolio-dashboard-tan.vercel.app/icons/cryptoo.jpg"
         />
       </head>
       <body className={inter.className}>

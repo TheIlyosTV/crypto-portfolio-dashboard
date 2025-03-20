@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     description: "Track your cryptocurrency portfolio with real-time price updates",
     images: [
       {
-        url: "/icons/crypto.jpg",
+        url: "https://crypto-portfolio-dashboard-tan.vercel.app/icons/crypto.jpg",
         width: 1200,
         height: 630,
         alt: "Crypto Portfolio Dashboard Preview",

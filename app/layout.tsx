@@ -9,6 +9,19 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "Crypto Portfolio Dashboard",
   description: "Track your cryptocurrency portfolio with real-time price updates",
+  openGraph: {
+    title: "Crypto Portfolio Dashboard",
+    description: "Track your cryptocurrency portfolio with real-time price updates",
+    images: [
+      {
+        url: "/icons/crypto.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Crypto Portfolio Dashboard Preview",
+      }
+    ],
+    type: "website",
+  }
 }
 
 export default function RootLayout({
